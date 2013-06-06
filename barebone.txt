@@ -1,0 +1,8 @@
+// podstawowt kod arduino
+void setup() {                
+
+}
+
+void loop() {
+  
+}
