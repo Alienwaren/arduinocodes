@@ -1,0 +1,13 @@
+int led = 13;
+// ustawienie trybów diód
+void setup() {                
+  pinMode(led, OUTPUT);     
+}
+
+// glowna petla arduino
+void loop() {
+  digitalWrite(led, HIGH);   
+  delay(1000);               
+  digitalWrite(led, LOW);    
+  delay(1000);              
+}
